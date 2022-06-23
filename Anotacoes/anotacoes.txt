@@ -47,3 +47,8 @@ Podemos incluir individualmente os arquivos fazendo "git add nomedoarquivo" ou i
 Para fazer o commit utilizamos o 'git commit -m "Mensagem descrevendo as alterações"'. 
 
 Usamos o "git log" para ver a lista de todos os commits feitos até então no branch.
+
+_____________________________________________________________________________________________________________________________________________
+
+Para saber em qual branch estamos usamos o "git branch".
+
