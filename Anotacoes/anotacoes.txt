@@ -55,3 +55,24 @@ Para saber em qual branch estamos usamos o "git branch".
 Temos 3 tipos de reset para retornarmos ao commit anterior, todos eles usando todos os números do commit ou apenas os 7 primeiros. o "git 
 reset --soft" retorna no estado escolhido sem as informações estarem commitadas, o "git reset --mixed" vai fazer a mesma coisa do anterior mas
 ele não estará pronto para comittar, ou seja, teremos que usar o add novamente, temos também o "git reset --hard", que ignora tudo. 
+
+Para criar um novo branch "git branch nomeDoBranchNovo". Ele pega o histórico do Branch anterior e cria um novo. 
+
+Para alterar de branch para outro usamos o "git checkout nomeDoBranch". 
+
+O "git diff" mostra o que foi alterado entre um commit e outro com detalhes.
+
+Para ver apenas o nome dos arquivos alterados usamos o "git diff --name-only". E " git diff nomedoarquivo.formato para saber apenas o arquivo
+desejado.
+
+Após o git diff, caso não tenhamos gostado de alguma alteração, para retirar a mesma do arquivo usamos o "git checkout Head -- nomeDoArquivo"
+_____________________________________________________________________________________________________________________________________________
+
+Para acessar/criar a chave SSH e conectar utilizei o link abaixo com o passo a passo. Após instalar o Git Bash. 
+
+https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+Após isso entramos na pasta do usuário em meu computador e la vamos ter a pasta .ssh, onde pegaremos o id público para utilizar na inserção da
+chave SSH no settings do github. Após esse registo no próprio projeto temos o comando com o link para inserir no prompt.
+
+O fetch pega as informações do repositório remoto e trazem para o repositório local, o push faz o contrário. 
