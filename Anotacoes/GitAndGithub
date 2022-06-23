@@ -1,0 +1,19 @@
+Os comandos serão realizados no Prompt de comando/cmd. 
+
+_____________________________________________________________________________________________________________________________________________
+Para definir o nome de quem enviará as atualizações para o git utilizamos: 
+
+git config --global user.name "Nome escolhido aqui"
+
+Para definir o e-mail de quem enviará as atualizações para o git utilizamos: 
+
+git config --global user.email "e-mail aqui."
+
+git config --global core.editor VScode
+
+Para verificar os nomes inputados: 
+
+git config user.email
+git config core.editor
+git config user.name
+_______________________________________________________
