@@ -1,0 +1,49 @@
+Os comandos serão realizados no Prompt de comando/cmd. 
+
+_____________________________________________________________________________________________________________________________________________
+
+Definir o nome de quem enviará as atualizações para o git utilizamos: 
+
+git config --global user.name "Nome escolhido aqui"
+
+Definir o e-mail de quem enviará as atualizações para o git utilizamos: 
+
+git config --global user.email "e-mail aqui."
+
+git config --global core.editor VScode
+
+Verificar os nomes inputados: 
+
+git config user.email
+git config core.editor
+git config user.name
+
+Verificar a lista de informações cadastradas.
+
+git config --list
+_____________________________________________________________________________________________________________________________________________
+
+Comandos básicos para o prompt.
+
+Utilizamos o comando cd para abrir pastas.
+
+Para verificar todas as pastas no local usamos o comando "tree /f" ou então o "dir".
+
+Para sair da pasta que estamos e retornar ao local anterior usamos o "cd ..".
+
+Após selecionar a pasta do material, usamos o "git init" para inicializar o repositório. 
+_____________________________________________________________________________________________________________________________________________
+
+O comando git branch permite criar, listar, renomear e excluir ramificações. Ele não permite alternar entre as ramificações ou reunir um 
+histórico bifurcado de novo. Por esse motivo, o comando git branch é muito integrado com os comandos git checkout e git merge.
+
+Os commits são as unidades estruturais de um cronograma de projeto Git. Podem ser considerados instantâneos ou marcos ao longo do cronograma
+de um projeto Git. São criados com o comando git commit para capturar o estado de um projeto naquele momento.
+
+Dentro da pasta do projeto nós podemos utilizar o "git status" para o sistema puxar as alterações realizadas.
+
+Podemos incluir individualmente os arquivos fazendo "git add nomedoarquivo" ou incluir todos utilizando o "git add -A".
+
+Para fazer o commit utilizamos o 'git commit -m "Mensagem descrevendo as alterações"'. 
+
+Usamos o "git log" para ver a lista de todos os commits feitos até então no branch.
