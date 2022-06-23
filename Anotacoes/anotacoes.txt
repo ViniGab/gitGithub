@@ -52,3 +52,6 @@ ________________________________________________________________________________
 
 Para saber em qual branch estamos usamos o "git branch".
 
+Temos 3 tipos de reset para retornarmos ao commit anterior, todos eles usando todos os números do commit ou apenas os 7 primeiros. o "git 
+reset --soft" retorna no estado escolhido sem as informações estarem commitadas, o "git reset --mixed" vai fazer a mesma coisa do anterior mas
+ele não estará pronto para comittar, ou seja, teremos que usar o add novamente, temos também o "git reset --hard", que ignora tudo. 
