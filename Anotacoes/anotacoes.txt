@@ -76,3 +76,9 @@ Após isso entramos na pasta do usuário em meu computador e la vamos ter a past
 chave SSH no settings do github. Após esse registo no próprio projeto temos o comando com o link para inserir no prompt.
 
 O fetch pega as informações do repositório remoto e trazem para o repositório local, o push faz o contrário. 
+
+Utilizei o git push -u origin master no git bash com o token para realizar o primeiro push. Master é o nome da branch.
+_____________________________________________________________________________________________________________________________________________
+
+Quando não queremos que determinado arquivo seja enviado ao Github nós usamos o .gitignore, que no caso é, criamos um arquivo com o nome de 
+.gitignore e incluímos os nomes(ex: BancoDados.sql) para que sejam ignorados no git status, antes do envio. 
