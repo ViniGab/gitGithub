@@ -81,4 +81,20 @@ Utilizei o git push -u origin master no git bash com o token para realizar o pri
 _____________________________________________________________________________________________________________________________________________
 
 Quando não queremos que determinado arquivo seja enviado ao Github nós usamos o .gitignore, que no caso é, criamos um arquivo com o nome de 
-.gitignore e incluímos os nomes(ex: BancoDados.sql) para que sejam ignorados no git status, antes do envio. 
+.gitignore e incluímos os nomes(ex: BancoDados.sql) para que sejam ignorados no git status, antes do envio. Para ignorar extensões usamos o 
+sinal asterisco + .nome da extensão(Ex: *.txt), para pastas usamos o nome da pasta + /(ex: arquivosStyle/).
+_____________________________________________________________________________________________________________________________________________
+
+Usamos o "git revert --no-edit númerodocommitaqui" para reverter o commit que acabamos de fazer.
+_____________________________________________________________________________________________________________________________________________
+
+Para remover branch remoto utilizamos o "git push origin :nomedobranch". 
+Para remover branch local utilizamos o "git branch -D nomedobranch". 
+_____________________________________________________________________________________________________________________________________________
+
+O git pull é para puxar atualizações do remoto para o local.
+Usamos o "git pull origin nomedobranch"
+_____________________________________________________________________________________________________________________________________________
+
+Para clonar um repositório pegamos o link do repositório e usamos o "git clone url", lembrando que precisamos estar na pasta onde
+este será clonado.
