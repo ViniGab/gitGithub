@@ -77,6 +77,10 @@ chave SSH no settings do github. Após esse registo no próprio projeto temos o 
 
 O fetch pega as informações do repositório remoto e trazem para o repositório local, o push faz o contrário. 
 
+Pegamos a url do projeto no githut e adicionamos o .git no fim, no terminal utilizamos o "git remote add origin link.git"
+
+Caso a inclusão seja realizada com o link incorreto podemos ajustar com o "git remote set-url origin novolink.git"
+
 Utilizei o git push -u origin master no git bash com o token para realizar o primeiro push. Master é o nome da branch.
 _____________________________________________________________________________________________________________________________________________
 
